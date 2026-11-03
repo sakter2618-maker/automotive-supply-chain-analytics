@@ -1,0 +1,4 @@
+# extra tools used to build the report and Excel workbook (not needed for the dashboard)
+-r requirements.txt
+matplotlib>=3.8
+openpyxl>=3.1

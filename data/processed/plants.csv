@@ -1,0 +1,4 @@
+plant_id,plant_name,daily_plan,std_material_cost,labor_per_hr
+DAP,Dearborn Truck Assembly,1150,21500,42000
+LAP,Lansing SUV Assembly,900,18800,33000
+TDP,Toledo Drivetrain Plant,1600,1350,21000

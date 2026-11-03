@@ -1,0 +1,9 @@
+supplier_id,supplier_name,city,country,region,tier,default_mode,contract_otd_target_pct,contract_ppm_target
+S01,Great Lakes Stamping Co.,Warren,"Michigan, USA",Domestic,Tier 1,Road,95.0,5000
+S02,Motor City Powertrain Parts,Livonia,"Michigan, USA",Domestic,Tier 1,Road,95.0,5000
+S03,Ohio Valley Castings,Lima,"Ohio, USA",Domestic,Tier 2,Rail,95.0,8000
+S04,Northshore Seating Systems,Windsor,"Ontario, Canada",Nearshore,Tier 1,Road,95.0,5000
+S05,Bajio Wiring Harness,Queretaro,Mexico,Nearshore,Tier 1,Rail,95.0,5000
+S06,Pacific Rim Electronics,Kaohsiung,Taiwan,Overseas,Tier 2,Sea,95.0,8000
+S07,Rhein Precision Bearings,Schweinfurt,Germany,Overseas,Tier 2,Sea,95.0,8000
+S08,Hoosier Glass & Trim,Kokomo,"Indiana, USA",Domestic,Tier 1,Road,95.0,5000

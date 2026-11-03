@@ -1,0 +1,21 @@
+component_id,component_name,category,supplier_id,unit_cost,criticality,units_per_vehicle,safety_stock_days
+C01,Door Panel (Outer),Body,S01,86.0,A,4,3
+C02,Hood Assembly,Body,S01,142.0,A,1,3
+C03,Fender Stamping,Body,S01,64.0,B,2,4
+C04,Crankshaft,Powertrain,S02,310.0,A,1,3
+C05,Cylinder Head,Powertrain,S02,265.0,A,1,3
+C06,Transmission Gear Set,Powertrain,S02,420.0,A,1,3
+C07,Brake Caliper,Chassis,S03,58.0,A,4,3
+C08,Steering Knuckle,Chassis,S03,74.0,A,2,3
+C09,Axle Housing Casting,Chassis,S03,190.0,A,1,3
+C10,Front Seat Frame,Interior,S04,135.0,B,2,4
+C11,Rear Bench Assembly,Interior,S04,160.0,B,1,4
+C12,Main Wiring Harness,Electrical,S05,225.0,A,1,3
+C13,Door Wiring Harness,Electrical,S05,38.0,B,4,4
+C14,Engine Control Unit (ECU),Electrical,S06,380.0,A,1,3
+C15,Infotainment Module,Electrical,S06,290.0,B,1,4
+C16,Sensor Cluster (ADAS),Electrical,S06,175.0,A,1,3
+C17,Wheel Bearing,Powertrain,S07,46.0,A,4,3
+C18,Differential Bearing,Powertrain,S07,52.0,A,2,3
+C19,Windshield,Body,S08,118.0,B,1,4
+C20,Interior Trim Kit,Interior,S08,72.0,C,1,4
