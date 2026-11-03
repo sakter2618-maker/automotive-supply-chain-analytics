@@ -10,7 +10,7 @@ production efficiency, defect rates, quality control and production cost for an 
 ![Plotly](https://img.shields.io/badge/Plotly-Charts-6250d6?logo=plotly&logoColor=white)
 ![Excel](https://img.shields.io/badge/Excel-Scorecard-1baf7a?logo=microsoftexcel&logoColor=white)
 
-> **Live dashboard:** _add your Streamlit Cloud link here_ ·
+> **🔴 Live dashboard:** [automotive-supply-chain-analytics.streamlit.app](https://automotive-supply-chain-analytics-73hqvavck5c9qvzqkd9uxz.streamlit.app/) ·
 > **Report:** [Quality Analytics Report](reports/Quality_Analytics_Report.md) ·
 > **SQL:** [18 business queries](sql/03_business_queries.sql) ·
 > **Excel:** [Supplier Performance Workbook](excel/Supplier_Performance_Workbook.xlsx)
