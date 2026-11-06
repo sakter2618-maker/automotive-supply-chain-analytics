@@ -163,3 +163,7 @@ SQL: create a database `supply_chain`, then run `sql/01_schema.sql`, `sql/02_loa
 ---
 
 **Author:** Salma Akter · M.S. Computer & Information Technology · Data Analyst / BI portfolio
+
+## Author
+
+**Salma Akter** · Data Analyst & AI Automation · [salmaakter.me](https://salmaakter.me)
