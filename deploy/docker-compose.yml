@@ -1,0 +1,17 @@
+# Runs on the VPS behind the existing Traefik:  https://salmaakter.me/automotive
+name: automotive-supply-chain-analytics
+
+services:
+  dashboard:
+    build: ..
+    image: automotive-supply-chain-analytics:latest
+    container_name: automotive-dashboard
+    restart: unless-stopped
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.automotive.rule=Host(`salmaakter.me`) && PathPrefix(`/automotive`)
+      - traefik.http.routers.automotive.entrypoints=websecure
+      - traefik.http.routers.automotive.tls.certresolver=letsencrypt
+      - traefik.http.routers.automotive.priority=100
+      - traefik.http.services.automotive.loadbalancer.server.port=8501
+    mem_limit: 1g

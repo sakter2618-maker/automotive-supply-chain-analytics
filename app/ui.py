@@ -170,10 +170,19 @@ def style(fig: go.Figure, height=360, legend=True, title=None):
     return fig
 
 
+def _blank_nan(v):
+    return "" if isinstance(v, str) and "nan" in v else v
+
+
 def show(fig):
     title = (fig.layout.meta or {}).get("ui_title", "") if isinstance(fig.layout.meta, dict) else ""
     if title:
         st.markdown(f'<div class="chart-title">{title}</div>', unsafe_allow_html=True)
+    for tr in fig.data:                      # a one-day filter can leave some bars without data
+        t = getattr(tr, "text", None)
+        if t is not None and not isinstance(t, str):
+            tr.text = [[_blank_nan(v) for v in row] if isinstance(row, (list, tuple)) else _blank_nan(row)
+                       for row in t]
     st.plotly_chart(fig, width="stretch", config={"displayModeBar": False, "responsive": True})
 
 
